@@ -293,7 +293,7 @@ function renderPacket(acct) {
       <span class="doc-top">
         <span class="doc-kind">${d.kind}</span>
         <span class="doc-name">${esc(d.name)}</span>
-        <span class="doc-chev" aria-hidden="true"></span>
+        <span class="doc-chev" aria-hidden="true"><svg viewBox="0 0 10 10" width="10" height="10" fill="none"><path d="M1.6 2.8 L7.6 5 L1.6 7.2" stroke="#758696" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
       </span>
       <span class="doc-parse">${esc(d.parsed)}</span>
     </button>`).join("");
